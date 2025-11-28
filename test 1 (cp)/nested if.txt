@@ -1,0 +1,15 @@
+// nested if
+#include<stdio.h>
+int main()
+{
+    int a=6,b=10;
+    if(a>0)
+    {
+        if(b>0)
+        printf("both numbers are positive",a,b);
+        else
+        printf("%d is positive but not %d",a,b);
+    }else 
+    printf("both are not positive");
+    return 0;
+}
